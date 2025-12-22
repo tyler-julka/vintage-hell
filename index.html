@@ -1,78 +1,130 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>VINTAGE HELL</title>
-  <link rel="stylesheet" href="/assets/styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vintage Hell</title>
+
+  <style>
+    :root {
+      --bone: #E8E2D6;
+      --ink: #000000;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 60px 20px;
+      background-color: var(--bone);
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif; /* placeholder */
+      line-height: 1.4;
+    }
+
+    .container {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 48px;
+      letter-spacing: 0.04em;
+      margin: 0 0 24px 0;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 16px;
+      margin: 0 0 40px 0;
+      max-width: 520px;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #000;
+      margin: 40px 0;
+      width: 100%;
+    }
+
+    .section-title {
+      font-size: 18px;
+      letter-spacing: 0.08em;
+      margin-bottom: 24px;
+      text-transform: uppercase;
+    }
+
+    .drop {
+      margin-bottom: 36px;
+    }
+
+    .drop-title {
+      font-size: 14px;
+      letter-spacing: 0.1em;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+    }
+
+    .drop-phrase {
+      font-size: 18px;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+    }
+
+    .drop-desc {
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+
+    .drop-link {
+      font-size: 14px;
+      text-transform: uppercase;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    .closed {
+      text-decoration: none;
+      cursor: default;
+    }
+  </style>
 </head>
+
 <body>
-  <header class="site-header">
-    <h1>VINTAGE HELL</h1>
-    <p class="subhead">Finite objects. No restocks.</p>
-  </header>
+  <div class="container">
+    <h1>Vintage Hell</h1>
 
-  <main class="entries">
+    <p>
+      Vintage Hell is a record of inherited patterns, outdated rituals, and the familiar suffering we were taught to call normal.
+    </p>
 
-    <!-- ENTRY 001 -->
-    <section class="entry">
-      <div class="entry-meta">
-        <div class="kicker">ENTRY 001</div>
-        <h2>VINTAGE HELL</h2>
-      </div>
+    <hr />
 
-      <div class="gallery">
-        <img src="vintagehell/assets/images/vintage-hell/flat.jpg" alt="Vintage Hell — flat lay" loading="lazy">
-        <img src="vintagehell/assets/images/vintage-hell/onbody.jpg" alt="Vintage Hell — on body" loading="lazy">
-        <img src="vintagehell/assets/images/vintage-hell/detail.jpg" alt="Vintage Hell — detail" loading="lazy">
-      </div>
+    <div class="section-title">Drops</div>
 
-      <div class="entry-actions">
-        <a class="btn" href="PASTE_GUMROAD_LINK_FOR_ENTRY_001" target="_blank" rel="noopener">Available</a>
-        <!-- Later: swap Available for Closed -->
-      </div>
-    </section>
+    <div class="drop">
+      <div class="drop-title">Drop 001</div>
+      <div class="drop-phrase">Vintage Hell</div>
+      <div class="drop-desc">Washed bone heavyweight tee.</div>
+      <a class="drop-link" href="PASTE_GUMROAD_LINK_HERE">Available</a>
+    </div>
 
-    <!-- ENTRY 002 -->
-    <section class="entry">
-      <div class="entry-meta">
-        <div class="kicker">ENTRY 002</div>
-        <h2>FAMILIAR SUFFERING</h2>
-      </div>
+    <div class="drop">
+      <div class="drop-title">Drop 002</div>
+      <div class="drop-phrase">Familiar Suffering</div>
+      <div class="drop-desc">Faded charcoal heavyweight tee.</div>
+      <a class="drop-link" href="PASTE_GUMROAD_LINK_HERE">Available</a>
+    </div>
 
-      <div class="gallery">
-        <img src="vintagehell/assets/images/familiar-suffering/flat.jpg" alt="Familiar Suffering — flat lay" loading="lazy">
-        <img src="vintagehell/assets/images/familiar-suffering/onbody.jpg" alt="Familiar Suffering — on body" loading="lazy">
-        <img src="vintagehell/assets/images/familiar-suffering/detail.jpg" alt="Familiar Suffering — detail" loading="lazy">
-      </div>
+    <div class="drop">
+      <div class="drop-title">Drop 003</div>
+      <div class="drop-phrase">The Same House Again</div>
+      <div class="drop-desc">Sun-faded brick heavyweight tee.</div>
+      <a class="drop-link" href="PASTE_GUMROAD_LINK_HERE">Available</a>
+    </div>
 
-      <div class="entry-actions">
-        <a class="btn" href="PASTE_GUMROAD_LINK_FOR_ENTRY_002" target="_blank" rel="noopener">Available</a>
-      </div>
-    </section>
-
-    <!-- ENTRY 003 -->
-    <section class="entry">
-      <div class="entry-meta">
-        <div class="kicker">ENTRY 003</div>
-        <h2>THE SAME HOUSE AGAIN</h2>
-      </div>
-
-      <div class="gallery">
-        <img src="vintagehell/assets/images/the-same-house-again/flat.jpg" alt="The Same House Again — flat lay" loading="lazy">
-        <img src="vintagehell/assets/images/the-same-house-again/onbody.jpg" alt="The Same House Again — on body" loading="lazy">
-        <img src="vintagehell/assets/images/the-same-house-again/detail.jpg" alt="The Same House Again — detail" loading="lazy">
-      </div>
-
-      <div class="entry-actions">
-        <a class="btn" href="PASTE_GUMROAD_LINK_FOR_ENTRY_003" target="_blank" rel="noopener">Available</a>
-      </div>
-    </section>
-
-    <footer class="site-footer">
-      <p class="fineprint">An entry in <a href="https://objectsintime.co" target="_blank" rel="noopener">Objects In Time</a>.</p>
-    </footer>
-
-  </main>
+  </div>
 </body>
 </html>
